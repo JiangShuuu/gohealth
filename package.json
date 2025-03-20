@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --env-file=dev.env index.js",
+    "dev": "nodemon index.js",
     "initDB": "node --env-file=dev.env ./data/initDB.js",
     "dev2": "node --env-file=dev.env ./data/initDB.js && nodemon --env-file=dev.env index.js"
   },
